@@ -43,7 +43,7 @@ config.get("authority")
 
 # Create a preferably long-lived app instance which maintains a token cache.
 app = msal.ConfidentialClientApplication(
-    client_id=config["client_id"], authority="https://login.microsoftonline.com/172aacaf-35a5-46b3-9cac-698c57c9439b",
+    client_id=config["client_id"], authority="...",
     client_credential=config["secret"],
     )
 
